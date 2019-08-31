@@ -7,6 +7,24 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorld", "HelloWorld\He
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AutoVariable", "AutoVariable\AutoVariable.vcxproj", "{A0E1DD8D-72E3-4ED5-8490-0D4419E3F86F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_CPP", "01_CPP", "{A829AA39-A0C1-4A4A-94CB-E2D162EA8CC3}"
+	ProjectSection(SolutionItems) = preProject
+		SeePlusPlus.txt = SeePlusPlus.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_VisualStudio", "02_VisualStudio", "{D2058A0D-09FB-43E8-ADCB-33DD8CEB940F}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_HelloWorld", "03_HelloWorld", "{6BCF9F93-9064-4FD8-9ABA-7F43400C849E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "기호상수", "기호상수\기호상수.vcxproj", "{56902D4D-AFAB-44E9-9C22-03D6676967BF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_01_기본출력문", "기본출력문\기본출력문.vcxproj", "{30CDFD03-5D37-46D5-BD00-DBFA3300DB52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_Syntax", "04_Syntax", "{D7FF18CF-D334-46BB-A057-0F1AD778658C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,9 +49,29 @@ Global
 		{A0E1DD8D-72E3-4ED5-8490-0D4419E3F86F}.Release|x64.Build.0 = Release|x64
 		{A0E1DD8D-72E3-4ED5-8490-0D4419E3F86F}.Release|x86.ActiveCfg = Release|Win32
 		{A0E1DD8D-72E3-4ED5-8490-0D4419E3F86F}.Release|x86.Build.0 = Release|Win32
+		{56902D4D-AFAB-44E9-9C22-03D6676967BF}.Debug|x64.ActiveCfg = Debug|x64
+		{56902D4D-AFAB-44E9-9C22-03D6676967BF}.Debug|x64.Build.0 = Debug|x64
+		{56902D4D-AFAB-44E9-9C22-03D6676967BF}.Debug|x86.ActiveCfg = Debug|Win32
+		{56902D4D-AFAB-44E9-9C22-03D6676967BF}.Debug|x86.Build.0 = Debug|Win32
+		{56902D4D-AFAB-44E9-9C22-03D6676967BF}.Release|x64.ActiveCfg = Release|x64
+		{56902D4D-AFAB-44E9-9C22-03D6676967BF}.Release|x64.Build.0 = Release|x64
+		{56902D4D-AFAB-44E9-9C22-03D6676967BF}.Release|x86.ActiveCfg = Release|Win32
+		{56902D4D-AFAB-44E9-9C22-03D6676967BF}.Release|x86.Build.0 = Release|Win32
+		{30CDFD03-5D37-46D5-BD00-DBFA3300DB52}.Debug|x64.ActiveCfg = Debug|x64
+		{30CDFD03-5D37-46D5-BD00-DBFA3300DB52}.Debug|x64.Build.0 = Debug|x64
+		{30CDFD03-5D37-46D5-BD00-DBFA3300DB52}.Debug|x86.ActiveCfg = Debug|Win32
+		{30CDFD03-5D37-46D5-BD00-DBFA3300DB52}.Debug|x86.Build.0 = Debug|Win32
+		{30CDFD03-5D37-46D5-BD00-DBFA3300DB52}.Release|x64.ActiveCfg = Release|x64
+		{30CDFD03-5D37-46D5-BD00-DBFA3300DB52}.Release|x64.Build.0 = Release|x64
+		{30CDFD03-5D37-46D5-BD00-DBFA3300DB52}.Release|x86.ActiveCfg = Release|Win32
+		{30CDFD03-5D37-46D5-BD00-DBFA3300DB52}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{86AE8B0A-3D31-47D8-A9A1-8F5ADF4674A7} = {6BCF9F93-9064-4FD8-9ABA-7F43400C849E}
+		{30CDFD03-5D37-46D5-BD00-DBFA3300DB52} = {D7FF18CF-D334-46BB-A057-0F1AD778658C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {33990303-2631-4A00-8291-507CD9B556C2}
