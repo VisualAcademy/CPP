@@ -21,5 +21,8 @@
     <ClCompile Include="InputName.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TypeInference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
